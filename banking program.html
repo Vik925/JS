@@ -1,14 +1,14 @@
 <meta charset="utf-8">
 <script>
 
-	var a = +prompt("Введите сумму вклада в ₽.");
-		b = +prompt("Введите %.");
+	var a = +prompt("Enter the deposit amount in ₽.");
+		b = +prompt("Enter %.");
 		
 		for(i=1;i<6;i++) {
 		c =(a/100*b);
-		alert("Размер вклада увеличится на " +c.toFixed(2)+ " ₽ за " +i+ " год.");
+		alert("Deposit size will increase by" +c.toFixed(2)+ " ₽ over " +i+ " year.");
 		c=(a+c);
-		alert (i+ " год. Размер вклада составит: " +c.toFixed(2)+ " ₽.");
+		alert (i+ " year. The size of the contribution will be: " +c.toFixed(2)+ " ₽.");
 		a=c;
 		}
 		
